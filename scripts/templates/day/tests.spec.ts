@@ -1,5 +1,5 @@
-import m, {default as solution} from '.';
+import * as m from '.';
 
 it('exists', () => {
-  expect(solution).toBeDefined();
+  expect(m.default).toBeDefined();
 });
