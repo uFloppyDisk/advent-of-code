@@ -1,6 +1,6 @@
 import {readFileSync} from 'fs';
 
-type Input = Input;
+type Input = string[][];
 
 function readInput(): Input {
   const file = readFileSync(`${__dirname}/input.txt`, {
