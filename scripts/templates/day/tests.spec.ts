@@ -1,5 +1,5 @@
-import * as m from '.';
+import * as day from '.';
 
 it('exists', () => {
-  expect(m.default).toBeDefined();
+  expect(day.default).toBeDefined();
 });
