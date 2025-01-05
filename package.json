@@ -1,5 +1,6 @@
 {
   "devDependencies": {
+    "@types/callsite": "^1.0.34",
     "@types/jest": "^29.5.14",
     "@types/node": "^22.7.5",
     "gts": "^6.0.2",
@@ -16,5 +17,8 @@
     "create-day": "node ./scripts/create-day.js",
     "watch": "npx tsx watch src/index.ts",
     "test": "npx jest"
+  },
+  "dependencies": {
+    "callsite": "^1.0.0"
   }
 }
