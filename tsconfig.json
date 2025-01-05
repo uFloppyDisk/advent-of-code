@@ -5,8 +5,8 @@
     "baseUrl": ".",
     "outDir": "build",
     "paths": {
-      "@utils/*": ["./src/utils/*"],
-      "@types/*": ["./src/types/*"],
+      "@utils/*": ["src/utils/*"],
+      "@types/*": ["src/types/*"],
     },
     "esModuleInterop": true,
   },
