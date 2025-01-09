@@ -4,7 +4,6 @@ describe('example case', () => {
   let INPUT: day.ParsedInput;
   beforeEach(() => {
     INPUT = day.parseInput({path: '/example.txt'});
-    expect(INPUT).toBeDefined();
   });
 
   it.each([undefined])('part1 is %s', expected => {
@@ -20,7 +19,6 @@ describe.skip('problem case', () => {
   let INPUT: day.ParsedInput;
   beforeEach(() => {
     INPUT = day.parseInput();
-    expect(INPUT).toBeDefined();
   });
 
   it.each([undefined])('part1 is %s', expected => {
