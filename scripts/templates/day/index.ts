@@ -1,6 +1,6 @@
 import {readInput} from '@utils/input';
 
-type ParsedInput = unknown;
+export type ParsedInput = unknown;
 type ReturnPartOne = unknown;
 type ReturnPartTwo = unknown;
 
